@@ -42,7 +42,7 @@ module.exports = async (req, res) => {
         currentDate.add(1, 'days');
     }
 
-    // api.sendResults(response);
+    api.sendResults(response);
 
     res.send(response);
 };
